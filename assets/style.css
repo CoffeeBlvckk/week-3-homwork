@@ -1,14 +1,9 @@
 body {background-color: rgb(15, 15, 15);
   color: rgb(251, 247, 247);
-  background-image: url("assets/matrix.jpg");
+  background-image: url("matrix.jpg");
   height: 2000px;
   width: auto; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
-  flex-wrap: wrap;
-}
-header{
-/*circle back top get all text centered in the page*/
 }

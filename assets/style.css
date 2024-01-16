@@ -1,9 +1,34 @@
 body {background-color: rgb(15, 15, 15);
-  color: rgb(251, 247, 247);
-  background-image: url("matrix.jpg");
-  height: 2000px;
+  color: rgb(254, 252, 252);
+  background-image: url("./matrix.jpg"); /*image for sstyling effect*/
+  height: 2000px; /*lucky guess on px size but cover all of the page. add flex wrap*/
   width: auto; 
-  background-position: center;
+  background-position: center;/*center the back ground image itself. remember only the picture not the text layered on top*/
   background-repeat: no-repeat;
   background-size: cover;
+  padding-left: 0px;/*padding is zero because text align center did what i wanted over padding*/
+  flex-wrap: wrap;
+}
+
+/*wanted to increase size*/
+h1 {
+  font-size: 150px;
+text-align: center;
+}
+
+/*wanted to increase size*/
+h2 {
+  font-size: 100px;
+  text-align: center;
+}
+
+/*moved over text box to align with the rest*/
+.card-body{
+  size: 100px;/*did not effect over all size of box..circle back*/
+  text-align: center;
+}
+
+/*moved over the "generate passwrod text" */
+.card-footer{
+  text-align: center;
 }

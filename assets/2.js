@@ -15,7 +15,7 @@ var specials = "!@#$%^&*-+".split("");
 function generatePassword() {
   var finalPass = [];
 
-  // ask user for password length
+  // ask user for password length. got the promp code from  w3 schools
   var passwordLength = parseInt(prompt("Enter the desired password length (between 8 and 128):"));
 
   // password length 8-128 characters
@@ -34,7 +34,7 @@ function generatePassword() {
     return "";
   }
 
-  // for loop. ensured chosen items were selected
+  // for loop. ensured chosen items were selected got help from w3 schools
   for (var i = 0; i < passwordLength; i++) {
     if (isLowercase && finalPass.length < passwordLength) {
       var randomCharacter = Math.floor(Math.random() * 26);
